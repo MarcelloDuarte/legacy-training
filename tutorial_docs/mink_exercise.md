@@ -1,3 +1,4 @@
+```php
 <?php
 
 use Behat\Behat\Tester\Exception\PendingException;
@@ -191,3 +192,4 @@ class TalksContext extends RawMinkContext implements Context, SnippetAcceptingCo
         $this->assertSession()->fieldValueEquals('talk_title', $newTitle);
     }
 }
+```
