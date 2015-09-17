@@ -8,7 +8,7 @@ mysql -u root
 ```
 
 ```
-mysql -u root < joindin_example.sql
+mysql -u root joindin < joindin_example.sql
 ```
 
 ## Serving
