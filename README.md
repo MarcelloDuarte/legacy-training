@@ -11,6 +11,12 @@ mysql -u root
 mysql -u root joindin < joindin_example.sql
 ```
 
+## Install dependencies
+
+```
+composer install
+```
+
 ## Serving
 
 ```
