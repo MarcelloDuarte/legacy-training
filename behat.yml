@@ -1,0 +1,9 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://dev.joind.in
+            goutte: ~
+    suites:
+        default:
+            contexts:
+                - TalksContext
